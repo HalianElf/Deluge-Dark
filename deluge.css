@@ -17,6 +17,22 @@ input {
 	color: #aaaaaa !important;
 }
 
+/* scroller */
+::-webkit-scrollbar-corner {
+    background-color:  hsla(0,0%,100%,.08);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 0, 0, .25);
+
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: hsla(0,0%,100%,.08);
+}
+
 .x-grid3-header table, .x-grid3-body table {
 	border-collapse: collapse;
 }
@@ -581,7 +597,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-deluge-preferences, .icon-options {
-	background: url(https://halianelf.github.io/Deluge-Dark/images/settings_small.png) no-repeat !important;
+	background: url(https://halianelf.github.io/Deluge-Dark/images/settings_small.png) no-repeat 0 4px !important;
 }
 
 .x-deluge-connection-manager, .x-btn .x-deluge-connection-manager {
@@ -742,6 +758,10 @@ ul.x-tab-strip-bottom{
 
 .x-toolbar .x-item-disabled * {
 	color:gray;
+}
+
+.x-toolbar div.xtb-text {
+    padding: 0px;
 }
 
 .x-toolbar .x-btn-mc em.x-btn-split {

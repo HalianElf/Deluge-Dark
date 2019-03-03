@@ -2087,8 +2087,8 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 .x-list-header-inner em.sort-asc, .x-list-header-inner em.sort-desc {
-    //background-image: url(../images/gray/grid/sort-hd.gif);
-    border-color: #d0d0d0;
+    background: #202020;
+    border-color: #202020;
 }
 .x-slider-horz, .x-slider-horz .x-slider-end, .x-slider-horz .x-slider-inner {
     //background-image: url(../images/default/slider/slider-bg.png);

@@ -596,8 +596,12 @@ ul.x-tab-strip-bottom{
 	background: url(https://halianelf.github.io/Deluge-Dark/images/settings.png) no-repeat 1px -23px !important;
 }
 
-.x-deluge-preferences, .icon-options {
+.x-deluge-preferences {
 	background: url(https://halianelf.github.io/Deluge-Dark/images/settings_small.png) no-repeat 0 4px !important;
+}
+
+.icon-options {
+	background: url(https://halianelf.github.io/Deluge-Dark/images/settings_small.png) no-repeat 0 0px !important;
 }
 
 .x-deluge-connection-manager, .x-btn .x-deluge-connection-manager {

@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body, h1, h2, h3, h4, h5, h6, p, a, span {
+        color: white;
+}
+
 html {
 	background-color: #252525;
 	color: #cccccc;
